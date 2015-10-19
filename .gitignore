@@ -1,0 +1,9 @@
+*.suo
+*.user
+.DS_Store
+docs/api
+lib
+node_modules
+test/build
+npm-debug.log
+examples/command-app/build

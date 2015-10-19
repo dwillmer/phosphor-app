@@ -1,0 +1,14 @@
+{
+  "module": "commonjs",
+  "target": "ES5",
+  "excludeNotExported": true,
+  "mode": "file",
+  "out": "docs",
+  "src": [
+    "src/index.ts",
+    "node_modules/phosphor/dist/phosphor.d.ts",
+    "typings/es6-promise/es6-promise.d.ts",
+    "typings/marked/marked.d.ts",
+    "typings/katex/katex.d.ts"
+  ]
+}
